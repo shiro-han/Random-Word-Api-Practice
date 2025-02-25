@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="index.css">
+        <title>Nick's Frontend Sample Question</title>
+    </head>
+    <body>
+        <h1>Nick's Frontend Sample Question</h1>
+        <p>Make a page that interfaces with the <a href="https://random-word-api.herokuapp.com/home">Random Word Api</a>
+            <br>where the user can select the number of random words to get with an increment button and a decrement button, and select the language
+        </p>
+        <label>Language:</label>
+        <select name="language" id="language">
+            <option value="en">English</option>
+            <option value="es">Spanish</option>
+            <option value="it">Italian</option>
+            <option value="de">German</option>
+            <option value="fr">French</option>
+            <option value="zh">Chinese</option>
+            <option value="pt-br">Brazillian Portugese</option>
+        </select>
+        <br>
+        <button id="incLength">+</button>
+        <button id="decLength">-</button>
+        <label>Length of Word: <span id="length">idc</span></label>
+        <button id="idcLength">idc lol</button>
+        <br>
+        <button id="inc">+</button>
+        <button id="dec">-</button>
+        <label>Number of Words: <span id="NumWords"></span></label>
+        <br></br>
+        <button id="get">Get Words</button>
+        <p id="output">
+            <ul id="words">
+            </ul>
+        </p>
+    </body>
+    <script src = "./index.js"></script>
+</html>
